@@ -1,0 +1,170 @@
+#down{
+  display:none;
+}
+
+#up{
+  display:none;
+}
+
+
+.contact-btn{
+  position: absolute;
+  top:-4px;
+  right:32px;
+  z-index: 999999;
+  cursor: pointer;
+  display: block;
+  background-color: #000;
+  color:#fed11f;
+  width: 120px;
+  height: 35px;
+  border: solid 1px #fed11f;
+  border-top: none;
+  line-height: 35px;
+  text-align: center;
+  -moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+  opacity: 0.8;
+  &:hover{
+    color:#000;
+    background-color: #fed11f;
+    border: solid 1px #000;
+    border-top: none;
+  }
+}
+
+img{
+  width:60%;
+  margin: 0 20%;
+  &.move-up{
+    margin-top: 30%;
+    margin-bottom: 0;
+  }
+  &.move-down{
+    margin-top: -30%;
+    margin-bottom: 0;
+  }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  img{
+    width:100%;
+    margin: auto;
+    &.move-up{
+      margin-top: 30%;
+      margin-bottom: 0;
+    }
+    &.move-down{
+      margin-top: -30%;
+      margin-bottom: 0;
+    }
+  }
+
+  #down{
+    font-size: 10px;
+    text-indent: 3000px;
+    background: url('./features/home/img/arrows-down.png') 0 0 no-repeat;
+    display: block;
+    width:49px;
+    height: 49px;
+    //margin: 5px 0 0 5px;
+    background-size:cover;
+    position: absolute;
+    bottom:50px;
+    left:48%;
+    cursor: pointer;
+    z-index: 9999999;
+    &:hover{
+      background: url('./features/home/img/arrows-down-over.png') 0 0 no-repeat;
+    }
+  }
+
+  #up{
+    font-size: 10px;
+    text-indent: 3000px;
+    background: url('./features/home/img/arrows-up.png') 0 0 no-repeat;
+    display: block;
+    width:49px;
+    height: 49px;
+    //margin: 5px 0 0 5px;
+    background-size:cover;
+    position: absolute;
+    top:50px;
+    left:48%;
+    cursor: pointer;
+    z-index: 9999999;
+    display: none;
+    &:hover{
+      background: url('./features/home/img/arrows-up-over.png') 0 0 no-repeat;
+    }
+  }
+}
+
+.fp-section{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+
+.fp-tableCell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.center{
+  text-align: center;
+}
+
+.pushdown{
+  margin-top: 10%;
+}
+
+
+h3 { font-size: 2.4rem; line-height: 0.8;  letter-spacing: -.1rem; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h3 { font-size: 3.6rem; }
+}
+
+
+.column{
+  display: table;
+  .text{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .text-hide{
+    display: none !important;
+    vertical-align: middle;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .column{
+    height: 400px;
+  }
+}
+
+
+
+
+.hero-heading{
+}
+
+p{
+  font-size: 0.8em;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  p{
+    font-size: 0.9em;
+  }
+}

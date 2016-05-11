@@ -1,0 +1,67 @@
+{
+  "pages": [
+    {
+      "id": 2,
+      "title": "Safe and Secure",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "crystalball-compressor.png",
+      "animation": "move-down"
+    },
+    {
+      "id": 3,
+      "title": "Trading Platforms",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "screens-compressor.png",
+      "animation": "move-down"
+    },
+    {
+      "id": 4,
+      "title": "24/7 Service Available",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "daynight-compressor.png",
+      "animation": "move-down"
+    },
+    {
+      "id": 5,
+      "title": "Minimal Spread",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "dice-compressor.png",
+      "animation": "move-down"
+    },
+    {
+      "id": 6,
+      "title": "Precious Metals",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "bars-compressor.png",
+      "animation": "move-down"
+    },
+    {
+      "id": 7,
+      "title": "Forex",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "pig-compressor.png",
+      "animation": "move-down"
+    },
+    {
+      "id": 8,
+      "title": "Promotion",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "prize-compressor.png",
+      "animation": "move-down"
+    },
+    {
+      "id": 9,
+      "title": "alt logo",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "RCM-Blue.png",
+      "animation": "move-down"
+    },
+    {
+      "id": 10,
+      "title": "alt logo 2",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat metus id turpis lacinia molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in bibendum nibh, sed dapibus urna. Quisque sed leo sed est gravida commodo. Maecenas accumsan malesuada libero, at vulputate quam feugiat non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at feugiat urna.",
+      "image": "RCM-NEON.png",
+      "animation": "move-down"
+    }
+  ]
+}

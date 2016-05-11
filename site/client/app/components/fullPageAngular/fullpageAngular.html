@@ -1,0 +1,25 @@
+<div id="fullpage">
+  <div class="section" id="section1">
+    <div class="container">
+      <div class="row">
+        <h1 id="logo" class="big">RCMarkets</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="section{{page.id}}" ng-repeat="(index, page) in data.pages">
+    <div class="container pushdown">
+      <div class="row" ng-if="page.content">
+        <div class="one-half column">
+          <div class="text" id="text{{page.id}}">
+            <h3 class="hero-heading">{{page.title}}</h3>
+            <p>{{page.content}}</p>
+          </div>
+        </div>
+        <div class="one-half column">
+          <img ng-if="page.image" src="./{{page.image}}" id="image{{page.id}}" class="image {{page.animation}}">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

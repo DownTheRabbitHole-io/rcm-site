@@ -1,0 +1,12 @@
+$font-color: #fff;
+$font-body-color: #fff;
+
+
+body{
+  background: url('./assets/images/background.jpg') 0 0 no-repeat;
+  background-size:cover;
+  color: $font-color;
+}
+
+
+@import 'features/home/home';

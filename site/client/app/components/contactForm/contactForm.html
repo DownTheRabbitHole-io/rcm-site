@@ -1,0 +1,31 @@
+<div id="modal" data-remodal-id="{{data.id}}">
+  <div class="contact-form">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h1>{{data.title}}</h1>
+    <div ng-show="!sent">
+    <form name="contactForm" ng-submit="processForm()">
+      <div class="row">
+        <div class="six columns">
+          <label for="nameInput">Your Full Name</label>
+          <input class="u-full-width" type="text" placeholder="Full Name" ng-model="contact.name" required id="nameInput">
+        </div>
+        <div class="lastname">
+          <label for="nameInput">Your Last Name</label>
+          <input class="u-full-width" type="text" placeholder="Last Name" id="lastNameInput">
+        </div>
+        <div class="six columns">
+          <label for="emailInput">Your email</label>
+          <input class="u-full-width" type="email" placeholder="you@mailbox.com" ng-model="contact.email" required id="emailInput">
+        </div>
+      </div>
+      <label for="message">Message</label>
+      <textarea class="u-full-width" placeholder="My Message …" ng-model="contact.message" required id="message"></textarea>
+
+      <input class="button-primary" type="submit" value="Send">
+    </form>
+  </div>
+  <div ng-show="sent">
+    <p>Thankyou, we'll be in touch.</p>
+  </div>
+  </div>
+</div>
